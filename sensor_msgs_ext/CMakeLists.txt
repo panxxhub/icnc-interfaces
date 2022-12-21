@@ -12,6 +12,7 @@ find_package(std_msgs REQUIRED)
 
 set (msg_files
   "msg/Buttons.msg"
+  "msg/ButtonArray.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
