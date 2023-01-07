@@ -2,4 +2,5 @@
 std_msgs/Header header
 
 # buttons pressed on the joystick/button box/etc. 
+string[] name
 int32[] digital_input
