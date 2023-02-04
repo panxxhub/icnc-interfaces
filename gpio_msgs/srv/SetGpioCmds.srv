@@ -1,3 +1,3 @@
-gpio_msgs/GpioCmd[] commands
+gpio_msgs/GpioCmds commands
 ---
 bool ok
