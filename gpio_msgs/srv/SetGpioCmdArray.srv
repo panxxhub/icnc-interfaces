@@ -1,0 +1,3 @@
+gpio_msgs/GpioCmdArray command
+---
+bool ok
