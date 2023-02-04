@@ -7,6 +7,5 @@
 # documentation on all multiarrays.
 std_msgs/Header header
 
-# std_msgs/MultiArrayLayout  layout        # specification of data layout
-uint16[] 	    	   mask		# array of mask
-uint16[]            	   data 	# array of data
+string[]		gpio_names
+gpio_msgs/GpioCmd 	cmds

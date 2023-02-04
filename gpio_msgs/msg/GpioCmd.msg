@@ -6,7 +6,5 @@
 
 # Please look at the MultiArrayLayout message definition for
 # documentation on all multiarrays.
-std_msgs/Header header
-
-uint16 	    	  mask	# array of mask
-uint16            data        # array of data
+uint16[] 	    	   mask		# array of mask
+uint16[]            	   data 	# array of data

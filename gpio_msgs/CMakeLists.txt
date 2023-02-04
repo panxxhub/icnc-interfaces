@@ -15,7 +15,6 @@ set (msg_files
   "msg/GpioCmds.msg"
 )
 set (srv_files
-  "srv/SetGpioCmd.srv"
   "srv/SetGpioCmds.srv"
 )
 
