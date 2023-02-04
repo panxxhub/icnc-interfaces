@@ -14,9 +14,12 @@ set (msg_files
   "msg/GpioCmd.msg"
   "msg/GpioCmdArray.msg"
 )
+set (srv_files
+  "srv/SetGpioState.srv"
+)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  ${msg_files}
+  ${msg_files} ${srv_files}
   DEPENDENCIES builtin_interfaces std_msgs
 )
 
