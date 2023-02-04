@@ -16,7 +16,7 @@ set (msg_files
 )
 set (srv_files
   "srv/SetGpioCmd.srv"
-  "srv/SetGpioCmdArray.srv"
+  "srv/SetGpioCmds.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
