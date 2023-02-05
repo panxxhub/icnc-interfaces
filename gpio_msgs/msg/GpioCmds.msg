@@ -8,4 +8,4 @@
 std_msgs/Header header
 
 string[]		gpio_names
-gpio_msgs/GpioCmd 	cmds
+gpio_msgs/GpioCmd[] 	cmds
