@@ -13,6 +13,7 @@ find_package(std_msgs REQUIRED)
 set (msg_files
   "msg/GpioCmd.msg"
   "msg/GpioCmds.msg"
+  "msg/GpioState.msg"
 )
 set (srv_files
   "srv/SetGpioCmds.srv"
