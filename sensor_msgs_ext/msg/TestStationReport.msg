@@ -6,4 +6,6 @@ string<=128 station_name
 int64 product_id 0
 int64 batch_id 0
 
+bool save false
+
 sensor_msgs_ext/TestElement[] elements
